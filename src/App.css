@@ -1,0 +1,13 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.animated {
+  animation: stuff forwards 1 5s;
+}
+@keyframes stuff {
+  to {
+    background-color: red;
+  }
+}
